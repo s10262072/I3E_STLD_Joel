@@ -1,4 +1,9 @@
-using System.Collections;
+
+/*
+ * Author: Leo Shao Wei Joel
+ * Date: 30/06/2024
+ * Description: Pause Menu 
+ */using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;

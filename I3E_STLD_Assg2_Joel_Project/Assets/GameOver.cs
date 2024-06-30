@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameOver : MonoBehaviour
 {
     // Start is called before the first frame update
+    public AudioSource soundPlayer;
 
     private void Start()
     {
@@ -20,5 +21,10 @@ public class GameOver : MonoBehaviour
     {
         
         SceneManager.LoadScene(0);
+    }
+    public void playThisSoundEffect()
+    {
+        soundPlayer.Play();
+
     }
 }
